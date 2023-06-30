@@ -1,0 +1,84 @@
+*{
+    font-family: 'Nunito', sans-serif;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    
+}
+
+.initial{
+    background: rgb(196, 182, 190);
+    height: 100vh;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+
+.row{
+    height: 70vh;
+    width: 60%;
+    background: #fff;
+    border-radius: 10px;
+}
+
+.col{
+    display: flex;
+    justify-content: center;
+    margin: auto;
+}
+
+.col img{
+    width: 100vw;
+    height: 70vh;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+.content{
+    padding: 30px 50px;
+    gap: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+.content h3{
+    color: rgb(73, 73, 73);
+    font-size: 13px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+.content h1{
+    color: #3c6255;
+    font-size: 20px;
+    font-family: 'Caprasimo', cursive;
+}
+.content p{
+    color: black;
+    font-size: 10px;
+    line-height: 20px;
+    font-family: 'Arizonia', cursive;
+}
+
+.content h2{
+    font-size: 25px;
+    font-weight: bolder;
+    color: #3c6255;
+}
+.content .btn{
+    padding: 10px 50px;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    background-color: #3c6255;
+    cursor: pointer;
+    font-size: 10px;
+}   
+.content .btn:hover{
+    background-color: #fff;
+    color: #3c6255;
+}
+.fa-shopping-cart{
+    font-size: 7px;
+    margin-right: 6px;
+}
